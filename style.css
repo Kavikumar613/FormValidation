@@ -1,0 +1,86 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-image: radial-gradient(50% 123.47% at 50% 50%, #00FF94 0%, #720059 100%);
+}
+
+.container {
+    width: 600px;
+    margin: 5vh auto 0 auto;
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+    border: 2px solid black;
+}
+h1 {
+    text-align: center;
+    color: #792099;
+}
+
+.input_group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+}
+
+.options label {
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+    transform: scale(1.6);
+}
+
+
+.input_group input {
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid rgb(34, 193, 195);
+}
+
+.input_group select {
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid rgb(34, 193, 195);
+}
+
+input[type="Checkbox"] {
+    transform: scale(1.3);
+    margin-right: 9px;
+}
+
+#form button {
+    background-color: blueviolet;
+    color: white;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+}
+
+#result {
+    color: red;
+}
+
+.input_group.success input {
+    border-color: #0cc477;
+}
+
+.input_group.error input {
+    border-color: rgb(206, 67, 67);
+}
