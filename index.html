@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-Validation</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <form action="" id="form" class="form">
+            <h1>Sign Up</h1>
+            <div class="input_group">
+                <label>Username:</label>
+                <input type="text" id="username">
+                <div id="result"></div>
+            </div>
+            <div class="input_group">
+                <label>Password:</label>
+                <input type="password" id="password">
+                <div id="result"></div>
+            </div>
+            <div class="input_group">
+                <label>Confirm Password:</label>
+                <input type="password" id="confirm_password">
+                <div id="result"></div>
+            </div>
+
+
+            <div class="input_group">
+                <label>Gender:</label>
+                <div class="options">
+                    <input type="radio" name="gender" id="male"> <label>Male</label>
+                    <input type="radio" name="gender" id="female"> <label>Female</label>
+                    <span id="result"></span>
+                </div>
+            </div>
+            <div class="input_group">
+                <label>Age:</label>
+                <input type="text" id="age">
+                <div id="result"></div>
+            </div>
+            <div class="input_group">
+                <label>Email:</label>
+                <input type="text" id="email">
+                <div id="result"></div>
+            </div>
+            <div class="input_group">
+                <label>Mobile no:</label>
+                <input type="text" id="mobile_no">
+                <div id="result"></div>
+            </div>
+            <div class="input_group">
+                <label>Country:</label>
+                <select name="Country" id="Country">
+                    select Country
+                    <option value="">Select Country</option>
+                    <option value="india">India</option>
+                    <option value="canada">Canada</option>
+                    <option value="china">China</option>
+                    <option value="japan">Japan</option>
+                    <option value="malaysia">Malaysia</option>
+                    <option value="singapore">Singapore</option>
+                    <option value="south korea">South Korea</option>
+                    <option value="sri lanka">Sri Lanka</option>
+                    <option value="united kingdom">United Kingdom</option>
+                    <option value="united states">United States</option>
+                </select>
+                <div id="result"></div>
+            </div>
+            <div class="input_group">
+                <div id="options">
+                    <input type="checkbox" id="terms"><label> agree to Terms of use</label>
+                    <div id="result"></div>
+                </div>
+            </div>
+
+            <button type="submit">Submit</button>
+
+        </form>
+    </div>
+
+</body>
+</html>
